@@ -5,18 +5,18 @@
 
 Name:          horde-sql
 Version:       0.0.2
-Release:       %mkrel 1
+Release:       %mkrel 2
 Summary:       SQL Utility Class
 License:       LGPL
 Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-Requires(pre): %{_bindir}/pear
+Requires(pre): php-pear
 Requires:      php-pear-channel-horde
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
+
 
 %description
 Horde_SQL:: contains some utility functions for dealing with SQL.
