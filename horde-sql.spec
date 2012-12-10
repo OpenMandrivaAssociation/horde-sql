@@ -56,3 +56,27 @@ fi
 %{peardir}/Horde/SQL/Keywords.php
 
 
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 564101
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 524855
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased rel ver to 2
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 509401
+- removed BuildRequires: horde-framework
+- import horde-sql
+
+
+* Tue Mar  3 2009 Richard Bos <rbos@opensuse.org> - 0.0.2
+- Change dependency to horde-framework from just horde
+* Tue Dec 23 2008 Richard Bos <rbos@opensuse.org> - 0.0.2
+- Changed the pear install command, use package.xml instead of the tarbal
+* Wed Nov 26 2008 Richard Bos <rbos@opensuse.org> - 0.0.2
+- initial version
