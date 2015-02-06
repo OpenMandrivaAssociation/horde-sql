@@ -5,7 +5,7 @@
 
 Name:          horde-sql
 Version:       0.0.2
-Release:       %mkrel 3
+Release:       4
 Summary:       SQL Utility Class
 License:       LGPL
 Group:         Networking/Mail
